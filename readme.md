@@ -26,16 +26,28 @@ app/
 │       │       └── example/
 │       │           └── weatherapp/
 │       │               ├── data/
+
 │       │               │   ├── local/              # Room数据库相关
+
 │       │               │   ├── model/              # 数据模型类
+
 │       │               │   ├── network/            # 网络请求相关
+
 │       │               │   └── repository/         # 数据仓库实现
+
 │       │               ├── ui/
 │       │               │   ├── main/               # 主界面相关
+
 │       │               │   ├── forecast/           # 天气预报组件
+
 │       │               │   ├── components/         # 公共UI组件
+
 │       │               │   └── theme/              # 应用主题
+
 │       │               ├── viewmodel/              # ViewModel层
+
 │       │               └── WeatherApplication.kt    # 应用入口
+
 │       └── res/                                    # 资源文件目录
+
 └── README.md
