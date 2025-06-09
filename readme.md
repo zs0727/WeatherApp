@@ -19,17 +19,23 @@
 项目结构
 
 app/
-├── src/main/java/com/example/weatherapp/
-│   ├── data/
-│   │   ├── local/              # Room 实体、Dao、Database
-│   │   ├── model/              # 数据模型（WeatherResponse、ForecastResponse 等）
-│   │   ├── network/            # 高德天气 API 调用（WeatherService）
-│   │   └── repository/         # 缓存策略与数据仓库（WeatherRepository）
-│   ├── ui/
-│   │   ├── main/               # 主界面 Compose 入口（MainActivity、MainContent）
-│   │   ├── forecast/           # 预报展示组件（ForecastSection.kt）
-│   │   ├── components/         # 可复用 UI 组件
-│   │   └── theme/              # 默认主题与样式
-│   ├── viewmodel/              # ViewModel
-│   └── WeatherApplication.kt   # Application
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── weatherapp/
+│       │               ├── data/
+│       │               │   ├── local/              # Room数据库相关
+│       │               │   ├── model/              # 数据模型类
+│       │               │   ├── network/            # 网络请求相关
+│       │               │   └── repository/         # 数据仓库实现
+│       │               ├── ui/
+│       │               │   ├── main/               # 主界面相关
+│       │               │   ├── forecast/           # 天气预报组件
+│       │               │   ├── components/         # 公共UI组件
+│       │               │   └── theme/              # 应用主题
+│       │               ├── viewmodel/              # ViewModel层
+│       │               └── WeatherApplication.kt    # 应用入口
+│       └── res/                                    # 资源文件目录
 └── README.md
