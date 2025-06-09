@@ -19,12 +19,19 @@
 项目结构
 
 app/
+
 ├── src/
+
 │   └── main/
+
 │       ├── java/
+
 │       │   └── com/
+
 │       │       └── example/
+
 │       │           └── weatherapp/
+
 │       │               ├── data/
 
 │       │               │   ├── local/              # Room数据库相关
